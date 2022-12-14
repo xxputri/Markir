@@ -19,7 +19,7 @@ function displaytime(){
 setInterval(displaytime, 10);
 
 setInterval(function () {
-    fetch("https://markirrr.herokuapp.com/api")
+    fetch("https://markir-production-b414.up.railway.app/api")
       .then((hasil) => hasil.json())
       .then((res) => {
         console.log(res);
